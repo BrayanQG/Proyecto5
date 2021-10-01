@@ -2,43 +2,33 @@
     --login-bg:#f8f3ff;
     --title-bg: #9089cc;
     --button-bg: #674baf;
-    --light-pink: #e882e8;
 }
 
 body {
+    justify-content: center;
+    background: linear-gradient(rgba(183, 190, 172, 0.6),rgb(0, 0, 0));
     height: 100vh;
     font-family:Arial, Helvetica, sans-serif;
-    background: #fcecfc;
-    background: -moz-linear-gradient(top,  #fcecfc 0%, #fba6e1 50%, #fd89d7 51%, #ff7cd8 100%); 
-    background: -webkit-linear-gradient(top,  #fcecfc 0%,#fba6e1 50%,#fd89d7 51%,#ff7cd8 100%); 
-    background: linear-gradient(to bottom,  #fcecfc 0%,#fba6e1 50%,#fd89d7 51%,#ff7cd8 100%); 
 }
 
 .login-container {
     height: 600px;
-    width: 950px;
+    width: 550px;
     margin: 6em auto;
-    border-radius: 20px;
+    border-radius: 30px;
     display: flex;
     justify-content: space-between;
     overflow: hidden;
 }
 
 .login-info-container {
-    width: 50%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
     padding-top: 0.5rem;
     background-color: var(--login-bg);
-}
-
-.image-container {
-    padding: 2rem;
-    width: 50%;
-    background-color: var(--image-bg);
-    box-sizing: border-box;
 }
 
 .title {
